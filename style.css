@@ -35,3 +35,56 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+/* General Task List Styling */
+#tasks {
+  list-style-type: none;
+  padding: 0;
+}
+
+#tasks li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Priority-Based Colors */
+.priority-high {
+  color: white;
+  background-color: red;
+}
+
+.priority-medium {
+  color: black;
+  background-color: yellow;
+}
+
+.priority-low {
+  color: white;
+  background-color: green;
+}
+
+/* Buttons Styling */
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
